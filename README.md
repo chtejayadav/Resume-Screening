@@ -22,3 +22,6 @@ This project automates the process of analyzing and categorizing resumes. By usi
 
 ## 📁 Folder Structure
 
+Resume-Screening/ ├── app.py # Streamlit interface ├── resume_parser.py # Text extraction logic ├── utils.py # Matching and scoring logic ├── model.pkl # Pre-trained ML model ├── requirements.txt # Python dependencies └── data/ # Sample data and resumes
+
+

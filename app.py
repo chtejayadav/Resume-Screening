@@ -24,7 +24,7 @@ def set_background(image_path):
     st.markdown(background_style, unsafe_allow_html=True)
 
 # Set background image
-image_path = "rs.gif"  # Ensure the image exists in the same directory
+image_path = "rs.png"  # Ensure the image exists in the same directory
 set_background(image_path)
 
 # Load pre-trained model and vectorizer

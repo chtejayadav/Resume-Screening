@@ -1,27 +1,71 @@
+Ah, got it! You want the **entire README in one continuous markdown block**, not broken up or formatted in sections in the response — just a single markdown file ready to paste or upload. Here's the full `README.md` as a **single markdown block**:
+
+---
+
+```markdown
 # 📄 Resume Screening System
 
-A Machine Learning-powered Resume Screening tool that automatically classifies resumes based on job roles and extracts key information like skills, experience, and education. Built to assist HR teams and recruiters in filtering the best candidates quickly and efficiently.
+A machine learning-powered tool that automates resume screening by extracting key information and classifying resumes based on job relevance. This solution is designed to support recruiters and HR professionals in quickly identifying top candidates.
+
+## 🚀 Features
+- PDF resume parsing and content extraction  
+- Job-role classification using ML models  
+- Keyword and skill matching  
+- Candidate scoring based on relevance  
+- Interactive UI built with Streamlit  
+
+## 🛠 Tech Stack
+- **Language:** Python 3  
+- **Libraries:** scikit-learn, pandas, nltk, pdfminer, Streamlit  
+- **Model:** Logistic Regression (easily replaceable)  
+
+## 📁 Project Structure
+```
+Resume-Screening/
+├── app.py            # Streamlit interface
+├── resume_parser.py  # Text extraction logic
+├── utils.py          # Matching and scoring logic
+├── model.pkl         # Pre-trained ML model
+├── requirements.txt  # Python dependencies
+└── data/             # Sample data and resumes
+```
+
+## ⚙️ Getting Started
+1. **Clone the Repository**
+```
+git clone https://github.com/chtejayadav/Resume-Screening.git
+cd Resume-Screening
+```
+
+2. **(Optional) Create a Virtual Environment**
+```
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+
+3. **Install Dependencies**
+```
+pip install -r requirements.txt
+```
+
+4. **Run the Application**
+```
+streamlit run app.py
+```
+Then open your browser and go to `http://localhost:8501`
+
+## 👤 Author
+**Ch Teja Yadav**  
+[GitHub Profile](https://github.com/chtejayadav)
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE)
 
 ---
 
-## 🚀 Project Overview
-
-This project automates the process of analyzing and categorizing resumes. By using natural language processing (NLP) and machine learning, it helps reduce manual screening efforts by identifying suitable candidates based on resume content.
-
----
-
-## 🧰 Tech Stack
-
-- 🐍 Python
-- 📦 Scikit-learn, Pandas, NumPy
-- 🧠 Machine Learning (Classification)
-- 📄 PDF Parsing
-- 🌐 Streamlit (for web UI)
+⭐ If you found this project helpful, please consider giving it a star!
+```
 
 ---
 
-## 📁 Folder Structure
-
-Resume-Screening/ ├── app.py # Streamlit interface ├── resume_parser.py # Text extraction logic ├── utils.py # Matching and scoring logic ├── model.pkl # Pre-trained ML model ├── requirements.txt # Python dependencies └── data/ # Sample data and resumes
-
-
+You can now paste this directly into your `README.md` file — it'll render cleanly on GitHub in a professional one-page format. Let me know if you want a version with images, shields (badges), or links to a live demo!
